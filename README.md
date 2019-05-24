@@ -15,7 +15,7 @@ Make sure you've already updated to the latest upstream as above. Then use below
 command to build the image.
 
 ```sh
-docker build --rm -t zboxfs/nodejs .
+./build.sh
 ```
 
 ## How to use this image
@@ -24,7 +24,7 @@ To use this image to build Node.js binding for ZboxFS, first get the latest
 code from https://github.com/zboxfs/zbox-nodejs.
 
 ```sh
-git clone https://github.com/zboxfs/zbox-nodejs.git
+git clone --recursive https://github.com/zboxfs/zbox-nodejs.git
 ```
 
 And then go into the cloned folder and use below command to build the binding.
