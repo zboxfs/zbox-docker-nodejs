@@ -1,3 +1,0 @@
-[submodule "zbox-nodejs"]
-	path = zbox-nodejs
-	url = https://github.com/zboxfs/zbox-nodejs.git
