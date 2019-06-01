@@ -10,4 +10,3 @@ RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - && \
 # enable libsodium static linking
 ENV SODIUM_LIB_DIR /opt/lib
 ENV SODIUM_STATIC true
-
