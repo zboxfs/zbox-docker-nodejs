@@ -19,8 +19,8 @@ code from https://github.com/zboxfs/zbox-nodejs.
 git clone --recursive https://github.com/zboxfs/zbox-nodejs.git
 ```
 
-Then go inside the cloned folder and use below command to build the Node.j
-s binding.
+Then go inside the cloned folder and use below command to build the Node.js
+binding.
 
 ```sh
 docker run --rm -v $PWD:/root/zbox zboxfs/nodejs npm run build
